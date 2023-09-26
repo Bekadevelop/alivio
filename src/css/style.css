@@ -1,0 +1,334 @@
+html, body {
+  margin: 0;
+}
+
+.top {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.top .logo {
+  width: 80px;
+  height: 23px;
+  margin-right: 170px;
+}
+.top .nav .top_nav {
+  color: #292929;
+  text-decoration: none;
+  font-size: 1rem;
+  margin-right: 72px;
+  transition: color 0.2s linear;
+}
+.top .nav .top_nav:hover {
+  color: #01996D;
+}
+.top_btn {
+  margin-left: 45px;
+}
+.top_btn .sign {
+  margin-right: 66px;
+  color: #292929;
+  text-decoration: none;
+  transition: color 0.3s linear;
+}
+.top_btn .sign:hover {
+  color: #01996D;
+}
+.top_btn .button {
+  text-decoration: none;
+  background-color: #01996D;
+  color: #fff;
+  padding: 13px 50px;
+  border: 1px solid #01996D;
+  border-radius: 4px;
+  transition: color 0.3s linear;
+}
+.top_btn .button:hover {
+  color: #292929;
+}
+.top .devider {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 80px;
+  bottom: 98.31%;
+  border: 1px solid #D6D6D6;
+  transform: rotate(180deg);
+}
+
+.description {
+  background-image: url(../images/BG.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 28px;
+}
+.description .georgia {
+  position: absolute;
+  width: 440px;
+  top: 261px;
+  font-family: "Georgia", sans-serif;
+  font-weight: 700;
+  font-size: 65px;
+  color: #01996D;
+}
+.description .deskr {
+  position: absolute;
+  width: 420px;
+  top: 439px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 20px;
+}
+.description .button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 50px;
+  position: absolute;
+  width: 227px;
+  height: 65px;
+  top: 580px;
+  background: #01996D;
+  border: 1px solid #01996D;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s linear;
+}
+.description .button:hover {
+  color: #292929;
+}
+
+.tittle .main {
+  font-family: "Lato";
+  font-weight: 600;
+  font-size: 1rem;
+  color: #424242;
+  margin-top: 169px;
+}
+.tittle .big {
+  font-family: "Georgia";
+  font-weight: 700;
+  font-size: 50px;
+  color: #01996D;
+  width: 584px;
+}
+.tittle .right_deskr {
+  font-family: "Lato";
+  font-size: 1rem;
+  color: #424242;
+  margin-top: 220px;
+  width: auto;
+}
+.tittle .number_1 {
+  margin-top: 160px;
+}
+.tittle .number_2 {
+  margin-top: 440px;
+}
+.tittle .number_3 {
+  margin-top: 206px;
+}
+.tittle .number {
+  color: rgba(1, 153, 109, 0.2);
+  font-family: "Georgia";
+  font-size: 150px;
+}
+.tittle .mini {
+  position: absolute;
+  font-family: "Georgia";
+  margin-top: -105px;
+  margin-left: 85px;
+  font-weight: 700;
+  font-size: 30px;
+}
+.tittle .text {
+  font-family: "Lato";
+  width: auto;
+}
+.tittle .img {
+  width: 310px;
+}
+
+.video {
+  margin-top: 60px;
+  min-width: auto;
+  height: 922px;
+  background: #245852;
+  background-size: 100%;
+}
+.video .tit {
+  margin-top: 333px;
+  width: 500px;
+  font-family: "Georgia";
+  font-weight: 700;
+  font-size: 50px;
+  color: #FFFFFF;
+}
+.video .min {
+  font-family: "Lato";
+  font-size: 1rem;
+  color: #fff;
+  margin-top: 33px;
+  width: 508px;
+}
+.video .button {
+  margin-top: 57px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 50px;
+  width: 227px;
+  background: #01996D;
+  border: 1px solid #01996D;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s linear;
+}
+.video .button:hover {
+  color: #292929;
+}
+.video .side_right .girl {
+  width: 600px;
+  margin-top: 300px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 16.3326px;
+}
+
+.left_img {
+  background-image: url(../images/Imagegirl.jpg);
+  width: 619px;
+  height: 555px;
+  margin-top: 120px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.on_img {
+  position: relative;
+  width: 1px;
+  left: -685px;
+  margin-top: 445px;
+}
+
+.right_foot {
+  display: inline-block;
+  margin: 120px 0 0 20px;
+}
+.right_foot .main {
+  font-family: "Lato";
+  font-weight: 600;
+  font-size: 1rem;
+  color: #424242;
+}
+.right_foot .big {
+  font-family: "Georgia";
+  font-weight: 700;
+  font-size: 50px;
+  color: #01996D;
+  width: 500px;
+}
+.right_foot .right_deskr {
+  font-family: "Lato";
+  font-size: 1rem;
+  color: #424242;
+  margin-top: 15px;
+  width: 500px;
+}
+.right_foot .button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 50px;
+  width: 205px;
+  background: #01996D;
+  border: 1px solid #01996D;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s linear;
+}
+.right_foot .button:hover {
+  color: #292929;
+}
+
+.footer {
+  margin-top: 60px;
+  min-width: auto;
+  height: 500px;
+  background: #245852;
+  background-size: 100%;
+}
+.footer .menu_logo {
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 95px;
+  padding-bottom: 40px;
+  transition: color 0.3s linear;
+}
+.footer .menu_logo:hover {
+  color: #01996D;
+}
+.footer .menu_nav {
+  display: block;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 1rem;
+  padding-bottom: 40px;
+  transition: color 0.2s linear;
+}
+.footer .menu_nav:hover {
+  color: #000;
+}
+
+@media (max-width: 1400px) {
+  .top_btn .button {
+    padding: 12px 40px;
+  }
+  .top_btn .sign {
+    margin-right: 5px;
+  }
+  .video .side_right .girl {
+    width: 550px;
+    margin-left: -80px;
+  }
+  .offset-md-2 {
+    margin-left: 120px;
+  }
+  .right_foot .big {
+    font-size: 36px;
+  }
+}
+@media (max-width: 1200px) {
+  .top .logo {
+    margin-left: 8px;
+    margin-right: 80px;
+  }
+  .tittle .left-big {
+    max-width: 100%;
+    text-align: center;
+    padding-left: 180px;
+  }
+  .tittle .right_deskr {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 130px;
+  }
+  .tittle .number_2 {
+    margin-top: 200px;
+  }
+  .tittle .two {
+    padding-left: 65px;
+  }
+  .tittle .text {
+    width: 414px;
+    text-align: center;
+  }
+  .tittle .img {
+    width: 400px;
+  }
+}/*# sourceMappingURL=style.css.map */
